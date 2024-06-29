@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
+</head>
+<body>
+
+<div class="container-fluid">
+    <h6 class="text-center">
+        <i class="bi bi-telephone-fill m-3">+431 4567 6754</i>
+        <i class="bi bi-envelope-fill ">info@jonnysbbq</i>
+    </h6>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="#">
+            <img src="bbqlogo.png" alt="BBQ" width="30" height="30"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">About Jonny</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">Barbecue courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="card text-bg-dark">
+    <img src="bbqchef2.jpg" class="card-img" alt="..." style="width: 100%;">
+    <div class="card-img-overlay">
+      <p class="card-text mt-5 ms-5">YOUR MOBILE BARBECUE SCHOOL IN THE DISTRICT OF BADEN NEAR VIENNA</p>
+      <h5 class="card-title  ms-5 fs-1" >HEIR KOMMT<br> JONNY!</h5>
+      <button type="button" class="btn btn-light ms-5 btn-sm">LEARN <i class="bi bi-arrow-right"></i></button>
+    </div>
+  </div>
+
+<h2 class="text-center mt-4">BBQ Courses</h2>
+
+<div class="card-group justify-content-center">
+    <div class="card m-3">
+        <img src="card-1.jpeg" class="card-img-top" alt="..." style="height: 15rem; width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title text-center">BBQ with JONNY</h5>
+            <p class="card-text" style="opacity: 0.7;">Now you have been able to get a first impression of me,
+                Jonny. I would like to share my knowledge and my passion with you....
+            </p>
+            <button type="button" class="btn btn-dark w-100 text-uppercase">Enroll now <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="card m-3">
+        <img src="card-2.jpeg" class="card-img-top" alt="..." style="height: 15rem; width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title text-center">Jonny full BBQ recipes</h5>
+            <p class="card-text" style="opacity: 0.7;">Now you have been able to get a first impression of me,
+                Jonny. I would like to share my knowledge and my passion with you....
+            </p>
+            <button type="button" class="btn btn-dark w-100 text-uppercase">Enroll now <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="card m-3">
+        <img src="card-3.jpeg" class="card-img-top" alt="..." style="height: 15rem; width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title text-center">Modern BBQ with JONNY</h5>
+            <p class="card-text" style="opacity: 0.7;">Now you have been able to get a first impression of me,
+                Jonny. I would like to share my knowledge and my passion with you....
+            </p>
+            <button type="button" class="btn btn-dark w-100 text-uppercase">Enroll now <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-12 border border-light" style="height: 10cm;">
+
+            <form class="border border-light m-3 ps-md-5 pe-md-5 ps-2 pe-2" style="height: 10cm; font-size: large;">
+                <p class="text-center" style="font-size: 40px;" id="contact">Contact</p>
+                <label for="name" class="form-label w-100">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter Name">
+                <label for="mail" class="form-label w-100">Email</label>
+                <input type="email" id="mail" class="form-control" placeholder="Enter Email">
+                <label for="add" class="form-label w-100">Address</label>
+                <input type="textarea" id="add" class="form-control"><br>
+                <input type="submit" value="Submit" class="btn btn-outline-secondary">
+            </form>
+        </div>
+
+        <div class="col-lg-6 col-md-12 p-2 border border-light">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dLATITUDE!2dLONGITUDE!3dZOOM_LEVEL!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3APLACE_NAME!2sPLACE_NAME!5e0!3m2!1sen!2sus!4vYOUR_API_KEY"
+                frameborder="0" class="w-100 h-300" style="width: 100%; height: 100%;"></iframe>
+        </div>
+    </div>
+
+    </div>
+    <br><br>
+    <footer class="text-white p-5 " style="background-color: black; opacity: 0.9;">
+        <p class="text-uppercase">follow us on</p>
+        <div class="fs-5">
+            <i class="bi bi-facebook m-2"></i>
+            <i class="bi bi-twitter m-2"></i>
+            <i class="bi bi-linkedin m-2"></i>
+            <i class="bi bi-instagram m-2"></i>
+        </div>
+    </footer>
+ 
+</body>
+</html>
+
